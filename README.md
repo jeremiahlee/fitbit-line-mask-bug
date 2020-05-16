@@ -4,7 +4,7 @@
 
 A SVG `<line>` element should be included in a `mask`.
 
-![Expected](expected.jpg)
+![Expected](expected.png)
 
 ## Actual
 
