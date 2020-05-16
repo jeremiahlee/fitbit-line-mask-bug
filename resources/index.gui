@@ -1,0 +1,16 @@
+<svg viewport-fill="#000000">
+    <mask id="mask">
+        <rect x="0" y="0" width="50" height="50" fill="#FFFFFF" />
+        <line id="hr" x1="105" y1="50%" x2="195" y2="50%" fill="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    </mask>
+
+    <svg mask="#mask" width="300" height="300">
+        <gradientRect id="gradient" width="300" height="300"
+            gradient-type="linear"
+            gradient-x1="0" gradient-y1="0"
+            gradient-x2="300" gradient-y2="300"
+            gradient-color1="deeppink" gradient-color2="darkviolet" />
+    </svg>
+
+    <rect id="tapArea" x="0" y="0" width="300" height="300" fill-opacity="0" pointer-events="visible" />
+</svg>
